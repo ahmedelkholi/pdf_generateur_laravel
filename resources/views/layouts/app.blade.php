@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+<<<<<<< HEAD
         @vite('resources/css/app.css')
+=======
+>>>>>>> d7200db97e2629043118d7a025ac567b99a66ea6
 </head>
 
 <body class="bg-gray-100">
@@ -66,6 +69,7 @@
     </nav>
 
     <div class="flex flex-wrap w-12/12">
+<<<<<<< HEAD
         <div class="w-2/12 h-screen">
             @include('layouts.side')
         </div>
@@ -75,6 +79,17 @@
         </div>
     </div>
     <footer class="bg-gray-800 text-white p-4">
+=======
+        <div>
+            @include('layouts.side')
+        </div>
+        <!-- Page Content -->
+        <div class="container mx-auto p-4 flex gap-3">
+            @yield('content')
+        </div>
+    </div>
+    <footer class="bg-gray-800 text-white p-4 mt-6">
+>>>>>>> d7200db97e2629043118d7a025ac567b99a66ea6
         <p class="text-center">&copy; 2025 My Projects. All rights reserved.</p>
     </footer>
 
